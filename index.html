@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Deep Gajjar</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <!-- Toggle button for theme -->
+    <div class="top-bar">
+      <button class="theme-toggle mono" onclick="toggleTheme()" aria-label="Toggle theme">
+        Dark
+      </button>
+    </div>
+
+    <!-- Header -->
+    <section class="header reveal">
+      <div class="profile-img">
+        <img src="images/profile.jpg" alt="profile-img">
+      </div>
+
+      <div class="intro">
+        <h1>Deep Gajjar</h1>
+        <div class="status-pill">
+          Student • Building Android Apps • Python & Django Backend Development
+        </div>
+        <p>
+          I'm a final-year BCA student who focused on Android App Development using Kotlin & XML and
+          backend development using Python & Django.
+          Continuously learning Android architecture and backend systems.</p>
+
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/deep-gajjar-b230642b1/" rel="noopener" target="_blank" class="tooltip">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <span class="tooltip-text">LinkedIn</span>
+          </a>
+          |
+          <a href="https://github.com/Deep-Gajjar-07" rel="noopener" target="_blank" class="tooltip">
+            <i class="fa-brands fa-github"></i>
+            <span class="tooltip-text">GitHub</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="section reveal">
+      <hr class="section-divider">
+      <h2 class="mono"><span class="prompt">&gt;</span> About Me</h2>
+      <p>
+        I am a final-year BCA student with an interest in Android app development and
+        backend development. I have hands-on experience with Kotlin and Python, and I am
+        currently learning Django for backend development.
+        <br><br>
+        I have built projects such as a blog platform, an expense tracker, and a notes
+        application to understand concepts better and improve my practical skills.
+
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="section reveal">
+      <hr class="section-divider">
+      <h2 class="mono"><span class="prompt">&gt;</span> Tech Stack I Use / Learning :</h2>
+
+      <div class="skill-box">
+        <p class="skill-title">Currently Learning :</p>
+        <div class="skill-tags">
+          <span class="mono"><i class="fa-regular fa-circle"></i> Django Backend development</span>
+          <span class="mono"><i class="fa-regular fa-circle"></i> Android architecture</span>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <p class="skill-title">Programming Languages :</p>
+        <div class="skill-tags">
+          <span class="mono"><i class="fa-brands fa-python"></i> Python</span>
+          <span class="mono"><i class="fa-solid fa-code"></i> Kotlin</span>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <p class="skill-title">Android Development :</p>
+        <div class="skill-tags">
+          <span class="mono"><i class="fa-brands fa-android"></i> Android Studio</span>
+          <span class="mono"><i class="fa-solid fa-code"></i> Kotlin</span>
+          <span class="mono"><i class="fa-solid fa-file-code"></i> XML Layouts</span>
+          <span class="mono"><i class="fa-solid fa-database"></i> SQLite DB</span>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <p class="skill-title">Databases :</p>
+        <div class="skill-tags">
+          <span class="mono"><i class="fa-solid fa-database"></i> SQLite</span>
+          <span class="mono"><i class="fa-solid fa-database"></i> MySQL</span>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <p class="skill-title">Tools :</p>
+        <div class="skill-tags">
+          <span class="mono"><i class="fa-brands fa-git-alt"></i> Git</span>
+          <span class="mono"><i class="fa-brands fa-github"></i> GitHub</span>
+          <span class="mono"><i class="fa-solid fa-code"></i> VS Code</span>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- Projects section -->
+    <section class="section reveal">
+      <hr class="section-divider">
+      <h2 class="mono"><span class="prompt">&gt;</span>Projects</h2>
+
+      <!-- project - Django Blog Website -->
+      <div class="project">
+        <div class="project-img">
+          <img src="images/project-django-website.png" alt="project-django-website">
+        </div>
+        <div class="project-info">
+          <h3>DailyMuse - Django Blog Website</h3>
+          <p>
+            A Django-based blog platform with user authentication. Users can register, login,
+            create, edit, and delete their own blog posts. Features include browsing all blogs,
+            searching by username or blog title, website interface with Bootstrap styling.
+          </p>
+          <div class="tags">
+            <span class="mono">Python</span>
+            <span class="mono">Django</span>
+            <span class="mono">SQLite</span>
+            <span class="mono">BootStrap</span>
+          </div>
+          <div class="project-links mono">
+            [ <a href="https://github.com/Deep-Gajjar-07/DailyMuse-Blog-Website-Django" target="_blank">github</a> ]
+          </div>
+        </div>
+      </div>
+
+      <!-- project - Android Expense Tracker App -->
+      <div class="project">
+        <div class="project-img">
+          <img src="images/project-expense-app.png" alt="project-expense-app">
+        </div>
+        <div class="project-info">
+          <h3>Expensio - Android Expense Tracker Application</h3>
+          <p>
+            An Android expense tracker app built with Kotlin and SQLite. Users can add and
+            delete transactions, view total income, expenses, and balance. Features include a
+            category-based expense chart for visual spending analysis.
+          </p>
+          <div class="tags">
+            <span class="mono">Android Studio</span>
+            <span class="mono">Kotlin</span>
+            <span class="mono">XML Layout</span>
+            <span class="mono">SQLite</span>
+          </div>
+          <div class="project-links mono">
+            [ <a href="https://github.com/Deep-Gajjar-07/Expensio-Expense_Tracker_App-" target="_blank">github</a> ]
+          </div>
+        </div>
+      </div>
+
+      <!-- project - Android Notes App -->
+      <div class="project">
+        <div class="project-img">
+          <img src="images/project-notes-app.png" alt="project-notes-app">
+        </div>
+        <div class="project-info">
+          <h3>Android Notes Application</h3>
+          <p>
+            A simple Android Notes app built with Kotlin and SQLite. Users can create, edit, and
+            delete notes with persistent local storage. Features a clean, intuitive interface
+            for managing personal notes.
+          </p>
+          <div class="tags">
+            <span class="mono">Android Studio</span>
+            <span class="mono">Kotlin</span>
+            <span class="mono">XML Layout</span>
+            <span class="mono">SQLite</span>
+          </div>
+          <div class="project-links mono">
+            [ <a href="https://github.com/Deep-Gajjar-07/Android_Note_App" target="_blank">github</a> ]
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Contact section -->
+    <section class="section reveal">
+      <hr class="section-divider">
+      <h2 class="mono"><span class="prompt">&gt;</span>Contact</h2>
+      <p>
+        I am open to internship and entry-level junior developer positions and looking
+        for opportunities to learn, build, and grow in the software development field.
+        <br>
+        Thank You...
+      </p>
+      <br>
+      <a href="mailto:gajjardeep2017@gmail.com" target="_blank" rel="noopener">
+        <p class="mono">[ email ] gajjardeep2017@gmail.com</p>
+      </a>
+      <a target="_blank" rel="noopener" href="https://github.com/Deep-Gajjar-07">
+        <p class="mono">[ GitHub ] Deep-Gajjar-07</p>
+      </a>
+      <a href="https://www.linkedin.com/in/deep-gajjar-b230642b1/" target="_blank" rel="noopener">
+        <p class="mono">[ LinkedIn ] Deep Gajjar</p>
+      </a>
+    </section>
+
+    <!-- footer area -->
+    <footer class="mono">
+      ©portfolio – Deep Gajjar | Built with the help of ChatGPT!
+    </footer>
+
+    <!-- scroll to top button -->
+    <button id="scrollTopBtn" aria-label="Scroll to top">
+      <i class="fa-brands fa-space-awesome"></i>
+    </button>
+
+  </main>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
