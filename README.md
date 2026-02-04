@@ -5,6 +5,8 @@ It Showcase About, Skills, Projects and Contact section.
 
 Built with the help of `ChatGPT` for a design and Structure of the website.
 
+Live Demo :- https://deepgajjar.netlify.app/
+
 ## Technologies Used
 - HTML
 - CSS
@@ -15,5 +17,3 @@ Built with the help of `ChatGPT` for a design and Structure of the website.
 - `css/` - stylesheets
 - `js/` - JavaScript Files
 - `images/` - images used in the website
-
-## Live Demo - https://deepgajjar.netlify.app/
