@@ -219,6 +219,12 @@ a {
     margin-top: 24px;
 }
 
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
 .skill-title {
     font-size: 15px;
     color: var(--text);
@@ -301,6 +307,12 @@ footer {
     margin-top: 64px;
     font-size: 14px;
     color: var(--muted);
+}
+
+@media (min-width: 768px) {
+    .skills-container {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /* ---------- RESPONSIVE ---------- */
