@@ -9,14 +9,14 @@
 
 /* Text Selection Color */
 ::selection {
-  background: #38bdf8;
-  color: #020617;
+    background: #38bdf8;
+    color: #020617;
 }
 
 /* For Firefox */
 ::-moz-selection {
-  background: #7dd3fc;
-  color: #0f172a;
+    background: #7dd3fc;
+    color: #0f172a;
 }
 
 body.light {
@@ -42,7 +42,7 @@ body {
     transition: background 0.3s, color 0.3s;
 }
 
-.highlight-text{
+.highlight-text {
     color: var(--highlight-text);
 }
 
@@ -260,10 +260,16 @@ a {
     background: transparent;
     padding: 6px 16px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
     font-size: 13px;
     color: var(--text);
 }
 
+.skill-tags span i {
+    margin-right: 8px;
+    font-size: 14px;
+}
 
 /* ---------- PROJECTS ---------- */
 .project {
